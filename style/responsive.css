@@ -1,0 +1,49 @@
+@media screen and (max-width:600px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .container nav{
+        margin-right: -10px;
+    }
+
+    .botao{
+        margin-top: 5px;
+    }
+
+    .container .perfil{
+        width: 40px;
+        margin-right: -400px;
+        margin-top: -40px;
+    }
+}
+
+@media screen and (min-width:800px){
+    .descricao{
+        width: 50%;
+    }
+
+    header .container{
+        display: flex;
+        margin-top: 15px;
+        
+        
+    }
+    
+    .container nav{
+        margin-right: 40px;
+    }
+
+    .botao{
+        margin-top: 5px;
+    }
+
+    .container .perfil{
+        width: 40px;
+       
+        margin-top: -1px;
+    }
+
+}

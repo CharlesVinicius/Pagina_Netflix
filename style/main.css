@@ -1,0 +1,198 @@
+
+
+:root{
+    --vermelha:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+/*Elementos base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Raleway';
+    color: white;
+}
+
+
+header .container{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   margin-right: 30px;
+}
+
+.container img{
+    color: var(--vermelha);
+    font-family:'Raleway';
+    font-size: 45px;
+    font-weight: bold;
+     width: 180px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: rgb(209, 4, 4);
+    transition: 0.3s;
+}
+
+.container nav{
+    margin-right: 400px;
+}
+
+.container .perfil{
+    width: 40px;
+}
+
+.search input{
+    
+    
+    margin-right: -50px;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.678);
+    outline: none;
+    border-radius: 4px;
+    
+}
+
+
+.search input[type = "text"]{
+    margin-left: 30px;
+}
+.search input::placeholder{
+    color: rgba(255, 255, 255, 0.685);
+    transform: translateX(20%);
+   
+    
+
+}
+
+.search .fa-search{
+    transform: translateX(-900%);
+    padding-right: 10px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    border-right: 1px solid #fff;
+    
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.808)100%), url('../img/capa-filme.jpg');
+    height:650px;
+    margin-top: -80px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-family: 'Raleway';
+}
+
+.filme-principal .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+}
+
+.filme-principal .detalhes{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b19e9e;
+    font-weight: bold;
+    
+}
+
+.filme-principal .detalhes span{
+    background-color: rgb(209, 4, 4);
+    padding: 4px;
+    color: white;
+    border-radius: 2px;
+    
+    
+    
+}
+
+.filme-principal .elenco{
+    font-family: 'Raleway';
+    margin-bottom: 25px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.botao:hover{
+    background-color: rgb(199, 18, 18);
+    color: #ffffff;
+    
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 40px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 80%;
+    width: 80%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.em-alta h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+main{
+    box-shadow: 1px 1px 50px 50px rgb(0, 0, 0);
+}
